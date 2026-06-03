@@ -1,5 +1,6 @@
-node_modules/
 .DS_Store
-*.log
-.vscode/
 .idea/
+.vscode/
+*.log
+node_modules/
+package-lock.json
