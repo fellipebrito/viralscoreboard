@@ -1,9 +1,10 @@
 /* global React */
 // ── ULV_ShareCard — 1200×630 OG card for one (nation × stage) ──
-// Baked to PNG by scripts/bake-ulv-og.mjs (Playwright screenshot, same
-// approach as the champions board). Counter values are frozen at bake
-// time; re-bake when data changes meaningfully.
-const { fmt, STAGE_PT, STAGE_VERB } = window;
+// Baked to PNG by scripts/bake-ulv-og.mjs. Cards are PT-BR (umtempao.com
+// is pt-BR; the live UI toggle is EN/PT but shares stay pt — same policy
+// as the champions board). Counter values frozen at bake time.
+const { fmt, lz, fill, STAGE, STAGE_VERB } = window;
+const PT = "pt";
 
 function ULV_ShareCard({ nation, stage }) {
   const anchor = nation.anchors[stage];
@@ -12,18 +13,18 @@ function ULV_ShareCard({ nation, stage }) {
   let kicker, big, line;
   if (anchor && anchor.date) {
     const { years } = window.elapsed(anchor.date);
-    kicker = `ÚLTIMA VEZ NAS ${STAGE_PT[stage].toUpperCase()}: ${anchor.year}`;
+    kicker = `ÚLTIMA VEZ NAS ${lz(STAGE[stage], PT).toUpperCase()}: ${anchor.year}`;
     big = `${years}`;
-    line = `${nation.name} não chega ${STAGE_VERB[stage].replace(/^um[a]? /, "a ")} de Copa há ${fmt(anchor.date)}`;
+    line = fill("{N} não chega a {V} de Copa há {T}", { N: nation.name, V: lz(STAGE_VERB[stage], PT), T: fmt(anchor.date, undefined, PT) });
   } else if (debutant) {
     kicker = `ESTREANTE · COPA 2026`;
     big = "1ª";
     line = `${nation.name} disputa sua primeira Copa do Mundo em 2026`;
   } else {
     const { years } = window.elapsed(nation.firstAppearance.date);
-    kicker = `${STAGE_PT[stage].toUpperCase()} · NUNCA`;
+    kicker = `${lz(STAGE[stage], PT).toUpperCase()} · NUNCA`;
     big = `${years}`;
-    line = `${nation.name} nunca jogou ${STAGE_VERB[stage]} de Copa — ${nation.appearances} participações desde ${nation.firstAppearance.year}`;
+    line = fill("{N} nunca jogou {V} de Copa — {A} participações desde {Y}", { N: nation.name, V: lz(STAGE_VERB[stage], PT), A: nation.appearances, Y: nation.firstAppearance.year });
   }
 
   return (
@@ -77,7 +78,7 @@ function ULV_BoardCard() {
         {champs.map((c) => <window.Flag key={c} code={c} size={84} />)}
       </div>
       <div style={{ zIndex: 1, font: "400 30px/1.35 var(--ttt-font-ui)", color: "var(--sx-ink-dim)", maxWidth: 1000 }}>
-        Toda seleção da história da Copa — quão fundo chegou, e há quanto tempo. Cada ano vira um contador ao vivo.
+        Toda seleção da história da Copa — quão longe chegou, e há quanto tempo. Cada ano vira um contador ao vivo.
       </div>
     </div>
   );
