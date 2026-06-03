@@ -24,7 +24,8 @@ function template(row, lang) {
   const desc = lang === "pt"
     ? `${row.years} anos desde que ${nation} venceu um campeão mundial em Copa.`
     : `${row.years} years since ${nation} last beat a fellow World Cup champion.`;
-  const target = `/?nation=${encodeURIComponent(row.nation)}&lang=${lang}`;
+  // Relative paths so it works under a project URL (e.g. fellipebrito.github.io/viralscoreboard/).
+  const target = `../?nation=${encodeURIComponent(row.nation)}&lang=${lang}`;
   return `<!doctype html>
 <html lang="${lang === "pt" ? "pt-BR" : "en"}">
 <head>
@@ -34,12 +35,12 @@ function template(row, lang) {
 <meta name="description" content="${escape(desc)}">
 <meta property="og:title" content="${escape(title)}">
 <meta property="og:description" content="${escape(desc)}">
-<meta property="og:image" content="/og-image.png">
+<meta property="og:image" content="../og-image.png">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${escape(title)}">
 <meta name="twitter:description" content="${escape(desc)}">
-<meta name="twitter:image" content="/og-image.png">
+<meta name="twitter:image" content="../og-image.png">
 <link rel="canonical" href="${escape(target)}">
 <meta http-equiv="refresh" content="0; url=${escape(target)}">
 </head>

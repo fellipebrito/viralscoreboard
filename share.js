@@ -54,7 +54,8 @@ window.shareNation = async function shareNation(nation, lang) {
       a.href = dataUrl;
       a.download = `drought-${nation}-${lang}.png`;
       document.body.appendChild(a); a.click(); a.remove();
-      const url = `${location.origin}/s/${nation}${lang === "en" ? "" : "." + lang}.html`;
+      // Resolve relative to the current page so it works under project URLs.
+      const url = new URL(`s/${nation}${lang === "en" ? "" : "." + lang}.html`, location.href).href;
       window.open(`https://wa.me/?text=${encodeURIComponent(text + " " + url)}`, "_blank", "noopener");
     }
   } catch (err) {
