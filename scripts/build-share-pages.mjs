@@ -15,7 +15,7 @@ new Function("window", src)(ctx);
 const { DROUGHT, NATION } = ctx;
 if (!DROUGHT || !NATION) throw new Error("data.js did not expose DROUGHT/NATION on the shim");
 
-const SITE = "https://fellipebrito.github.io/viralscoreboard";
+const SITE = "https://umtempao.com";
 const escape = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 function template(row, lang) {
