@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A última vez — quão fundo cada seleção foi na Copa, e há quanto tempo</title>
+<meta name="description" content="Toda seleção que já jogou uma Copa do Mundo, rankeada por participações: últimas quartas, última semi, última final. Cada ano vira um contador ao vivo.">
+
+<meta property="og:title" content="A última vez — quão fundo cada seleção foi na Copa">
+<meta property="og:description" content="Toda seleção que já jogou uma Copa do Mundo: últimas quartas, semi e final. Cada ano vira um contador ao vivo.">
+<meta property="og:image" content="https://umtempao.com/a-ultima-vez/og-image.png">
+<meta property="og:url" content="https://umtempao.com/a-ultima-vez/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="A última vez — quão fundo cada seleção foi na Copa">
+<meta name="twitter:description" content="Toda seleção que já jogou uma Copa do Mundo: últimas quartas, semi e final. Cada ano vira um contador ao vivo.">
+<meta name="twitter:image" content="https://umtempao.com/a-ultima-vez/og-image.png">
+
+<link rel="stylesheet" href="../colors_and_type.css">
+<link rel="stylesheet" href="../tokens-soccer.css">
+
+<style>
+  html { height: 100%; }
+  body, #root { min-height: 100%; margin: 0; padding: 0; background: var(--sx-crt-900); }
+  .sx-number { image-rendering: auto; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script crossorigin src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js"></script>
+
+<script src="nations.data.js"></script>
+<script type="text/babel" src="counter.jsx"></script>
+<script type="text/babel" src="flag.jsx"></script>
+<script type="text/babel" src="card.jsx"></script>
+<script type="text/babel" src="app.jsx"></script>
+</body>
+</html>
