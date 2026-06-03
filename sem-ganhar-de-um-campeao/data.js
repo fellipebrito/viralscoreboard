@@ -82,7 +82,7 @@ const DROUGHT = [
 const STR = {
   years:        { en: "YEARS",  pt: "ANOS" },
   yearsLc:      { en: "years",  pt: "anos" },
-  boardTitle:   { en: "CHAMPIONS' DROUGHT BOARD", pt: "PLACAR DA SECA DOS CAMPEÕES" },
+  boardTitle:   { en: "CHAMPIONS' DROUGHT BOARD", pt: "SEM GANHAR DE UM CAMPEÃO" },
   boardSub:     { en: "Years since a World Cup champion last beat a fellow champion",
                   pt: "Anos desde que um campeão mundial venceu outro campeão" },
   asOf:         { en: "AS OF JUN 2026 · 8 CHAMPIONS",

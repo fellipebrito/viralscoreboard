@@ -1,13 +1,18 @@
-// Build /s/<nation>(.<lang>).html shells from data.js.
-// Each is a tiny HTML with per-nation og:title + canonical, plus a
-// meta-refresh + JS redirect to /?nation=&lang= so humans land on the
-// live board with the right nation pre-selected.
+// Build /sem-ganhar-de-um-campeao/s/<nation>.html shells from the
+// dashboard's data.js + write legacy /s/<nation>(.pt).html redirects
+// that point at the new location (best Pages can do; no real 301).
+//
+// The dashboard is pt-BR by default; no per-lang share variants here.
+// The engine still supports both langs (data.js#STR), so an English
+// twin site can ship its own bake later.
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const src = fs.readFileSync(path.join(root, "data.js"), "utf8");
+const DASHBOARD_SLUG = "sem-ganhar-de-um-campeao";
+const dashboardDir = path.join(root, DASHBOARD_SLUG);
+const src = fs.readFileSync(path.join(dashboardDir, "data.js"), "utf8");
 
 // data.js attaches to a `window` object; give it a shim and capture.
 const ctx = {};
@@ -18,21 +23,17 @@ if (!DROUGHT || !NATION) throw new Error("data.js did not expose DROUGHT/NATION 
 const SITE = "https://umtempao.com";
 const escape = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-function template(row, lang) {
-  const nation = NATION[row.nation][lang];
-  const beat = NATION[row.beat][lang];
-  const yearWord = lang === "pt" ? "anos" : "years";
-  const title = `${nation} — ${row.years} ${yearWord} · Champions' Drought Board`;
-  const desc = lang === "pt"
-    ? `Placar da Seca dos Campeões: ${nation} não vence outro campeão mundial em Copa há ${row.years} anos — desde ${row.wc}, contra ${beat}. Contadores avançam por dia.`
-    : `Champions' Drought Board: ${nation} hasn't beaten a fellow World Cup champion in ${row.years} years — since the ${row.wc} World Cup, against ${beat}. Counters tick daily.`;
-  const fileName = lang === "en" ? `${row.nation}.html` : `${row.nation}.${lang}.html`;
-  const absoluteUrl = `${SITE}/s/${fileName}`;
-  const absoluteImage = `${SITE}/og/${row.nation}-${lang}.png`;
-  // Relative paths for the redirect so it works under a project URL.
-  const target = `../?nation=${encodeURIComponent(row.nation)}&lang=${lang}`;
+function template(row) {
+  const nation = NATION[row.nation].pt;
+  const beat = NATION[row.beat].pt;
+  const title = `${nation} — ${row.years} anos · Sem ganhar de um campeão`;
+  const desc = `Sem ganhar de um campeão: ${nation} não vence outro campeão mundial em Copa há ${row.years} anos — desde ${row.wc}, contra ${beat}. Contadores avançam por dia.`;
+  const absoluteUrl = `${SITE}/${DASHBOARD_SLUG}/s/${row.nation}.html`;
+  const absoluteImage = `${SITE}/${DASHBOARD_SLUG}/og/${row.nation}.png`;
+  // Relative redirect into the dashboard root with the right nation pre-selected.
+  const target = `../?nation=${encodeURIComponent(row.nation)}`;
   return `<!doctype html>
-<html lang="${lang === "pt" ? "pt-BR" : "en"}">
+<html lang="pt-BR">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,26 +44,48 @@ function template(row, lang) {
 <meta property="og:image" content="${escape(absoluteImage)}">
 <meta property="og:url" content="${escape(absoluteUrl)}">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${escape(title)}">
 <meta name="twitter:description" content="${escape(desc)}">
 <meta name="twitter:image" content="${escape(absoluteImage)}">
-<link rel="canonical" href="${escape(target)}">
+<link rel="canonical" href="${escape(absoluteUrl)}">
 <meta http-equiv="refresh" content="0; url=${escape(target)}">
 </head>
 <body><script>location.replace(${JSON.stringify(target)});</script></body>
 </html>`;
 }
 
-const outDir = path.join(root, "s");
+// Legacy /s/<nation>.html (and .pt.html) — soft-redirects to new path.
+// Best we can do on raw Pages (no .htaccess / no edge config).
+function legacyRedirect(row) {
+  const target = `/${DASHBOARD_SLUG}/s/${row.nation}.html`;
+  return `<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Movido — Sem ganhar de um campeão</title>
+<link rel="canonical" href="${SITE}${target}">
+<meta http-equiv="refresh" content="0; url=${target}">
+</head>
+<body><script>location.replace(${JSON.stringify(target)});</script></body>
+</html>`;
+}
+
+const outDir = path.join(dashboardDir, "s");
+const legacyDir = path.join(root, "s");
 fs.mkdirSync(outDir, { recursive: true });
+fs.mkdirSync(legacyDir, { recursive: true });
+
+// Wipe the dashboard /s/ first so stale `.pt.html` from the bilingual era don't linger.
+for (const f of fs.readdirSync(outDir)) fs.unlinkSync(path.join(outDir, f));
 
 let count = 0;
 for (const row of DROUGHT) {
-  for (const lang of ["en", "pt"]) {
-    const file = lang === "en" ? `${row.nation}.html` : `${row.nation}.${lang}.html`;
-    fs.writeFileSync(path.join(outDir, file), template(row, lang));
-    count++;
-  }
+  fs.writeFileSync(path.join(outDir, `${row.nation}.html`), template(row));
+  fs.writeFileSync(path.join(legacyDir, `${row.nation}.html`), legacyRedirect(row));
+  fs.writeFileSync(path.join(legacyDir, `${row.nation}.pt.html`), legacyRedirect(row));
+  count++;
 }
-console.log(`Wrote ${count} share pages to /s/`);
+console.log(`Wrote ${count} share pages to /${DASHBOARD_SLUG}/s/`);
+console.log(`Wrote ${count * 2} legacy redirect shells to /s/`);
