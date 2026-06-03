@@ -49,17 +49,12 @@ function App() {
   const [selectedNation, setSelectedNation] = React.useState(initial.nation);
   const ctx = React.useMemo(() => ({ lang, replay: 0 }), [lang]);
 
-  const onShare = React.useCallback((row, l) => {
-    if (typeof window.shareNation === "function") window.shareNation(row.nation, l);
-  }, []);
-
   return (
     <LangCtx.Provider value={ctx}>
       {selectedNation
         ? <window.NationCard
             row={rowOf(selectedNation)}
             onBack={() => setSelectedNation(null)}
-            onShare={onShare}
           />
         : <window.BoardMobile onSelectNation={setSelectedNation} />}
       <LangToggle lang={lang} setLang={setLang} />

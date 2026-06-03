@@ -201,7 +201,7 @@ function ShareCard({ row, lang: langProp }) {
 // ════════════════════════════════════════════════════════════
 // NATION CARD — mobile portrait 390 × 844
 // ════════════════════════════════════════════════════════════
-function NationCard({ row, onBack, onShare }) {
+function NationCard({ row, onBack }) {
   const { lang } = useLang();
   const nat = window.NATION[row.nation];
   return (
@@ -268,18 +268,8 @@ function NationCard({ row, onBack, onShare }) {
       {/* non-wins since last win over a champion */}
       <NonWinsList row={row} lang={lang} />
 
-      {/* share button */}
-      <div style={{ position: "relative", marginTop: "auto", padding: "14px 20px 8px" }}>
-        <button onClick={() => onShare && onShare(row, lang)} style={{
-          width: "100%", padding: "16px 20px", border: "2px solid var(--sx-crt-900)",
-          background: "var(--sx-yellow)", color: "var(--sx-crt-900)",
-          font: "700 15px var(--ttt-font-ui)", letterSpacing: "0.1em", textTransform: "uppercase",
-          boxShadow: "var(--sx-num-shadow-sm)", cursor: "pointer",
-        }}>{window.lz(window.STR.shareCta, lang)}</button>
-      </div>
-
       {/* credit (clickable) */}
-      <div style={{ position: "relative", padding: "4px 20px 18px", textAlign: "center" }}>
+      <div style={{ position: "relative", marginTop: "auto", padding: "18px 20px 22px", textAlign: "center" }}>
         <Credit />
       </div>
     </div>
@@ -336,12 +326,12 @@ function BoardRowM({ row, lang, i, onClick }) {
   );
 }
 
-// mobile board 390 × 844
+// mobile board 390 × 844 (grows beyond viewport on small screens; body scrolls)
 function BoardMobile({ onSelectNation }) {
   const { lang } = useLang();
   return (
-    <div style={{ position: "relative", width: "100%", height: "100%", background: "var(--sx-crt-900)",
-      fontFamily: "var(--ttt-font-ui)", color: "var(--sx-ink)", display: "flex", flexDirection: "column", overflow: "hidden" }}>
+    <div style={{ position: "relative", width: "100%", minHeight: "100%", background: "var(--sx-crt-900)",
+      fontFamily: "var(--ttt-font-ui)", color: "var(--sx-ink)", display: "flex", flexDirection: "column" }}>
       <Scanlines opacity={0.14} />
       <div style={{ position: "relative", padding: "20px 16px 14px", borderBottom: "3px solid var(--sx-cyan)" }}>
         <Wordmark lang={lang} small />

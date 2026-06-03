@@ -20,8 +20,8 @@
 <link rel="stylesheet" href="tokens-soccer.css">
 
 <style>
-  html, body, #root { height: 100%; margin: 0; padding: 0; }
-  html, body { background: #0C0820; }
+  html { height: 100%; }
+  body, #root { min-height: 100%; margin: 0; padding: 0; background: #0C0820; }
   /* keep pixel art crisp at any zoom; smooth numerals via token css */
   svg { image-rendering: pixelated; }
   .sx-number { image-rendering: auto; }
@@ -39,6 +39,5 @@
 <script type="text/babel" src="pieces.jsx"></script>
 <script type="text/babel" src="cards.jsx"></script>
 <script type="text/babel" src="app.jsx"></script>
-<script type="module" src="share.js"></script>
 </body>
 </html>
