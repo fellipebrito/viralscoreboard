@@ -28,7 +28,7 @@ function template(row, lang) {
     : `Champions' Drought Board: ${nation} hasn't beaten a fellow World Cup champion in ${row.years} years — since the ${row.wc} World Cup, against ${beat}. Counters tick daily.`;
   const fileName = lang === "en" ? `${row.nation}.html` : `${row.nation}.${lang}.html`;
   const absoluteUrl = `${SITE}/s/${fileName}`;
-  const absoluteImage = `${SITE}/og-image.png`;
+  const absoluteImage = `${SITE}/og/${row.nation}-${lang}.png`;
   // Relative paths for the redirect so it works under a project URL.
   const target = `../?nation=${encodeURIComponent(row.nation)}&lang=${lang}`;
   return `<!doctype html>
