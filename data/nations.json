@@ -1,0 +1,4492 @@
+[
+  {
+    "slug": "brasil",
+    "name": "Brasil",
+    "nameEn": "Brazil",
+    "code": "bra",
+    "fifa": "bra",
+    "flag": "bra",
+    "appearances": 22,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-14"
+    },
+    "lastStage": {
+      "qf": 2022,
+      "sf": 2014,
+      "final": 2002
+    },
+    "anchors": {
+      "qf": {
+        "year": 2022,
+        "date": "2022-12-09"
+      },
+      "sf": {
+        "year": 2014,
+        "date": "2014-07-08"
+      },
+      "final": {
+        "year": 2002,
+        "date": "2002-06-30"
+      }
+    },
+    "best": {
+      "stage": "champion",
+      "years": [
+        1958,
+        1962,
+        1970,
+        1994,
+        2002
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "qf"
+      },
+      {
+        "year": 2018,
+        "deepest": "qf"
+      },
+      {
+        "year": 2014,
+        "deepest": "sf"
+      },
+      {
+        "year": 2010,
+        "deepest": "qf"
+      },
+      {
+        "year": 2006,
+        "deepest": "qf"
+      },
+      {
+        "year": 2002,
+        "deepest": "champion"
+      },
+      {
+        "year": 1998,
+        "deepest": "final"
+      },
+      {
+        "year": 1994,
+        "deepest": "champion"
+      },
+      {
+        "year": 1990,
+        "deepest": "r16"
+      },
+      {
+        "year": 1986,
+        "deepest": "qf"
+      },
+      {
+        "year": 1982,
+        "deepest": "qf"
+      },
+      {
+        "year": 1978,
+        "deepest": "sf"
+      },
+      {
+        "year": 1974,
+        "deepest": "sf"
+      },
+      {
+        "year": 1970,
+        "deepest": "champion"
+      },
+      {
+        "year": 1966,
+        "deepest": "group"
+      },
+      {
+        "year": 1962,
+        "deepest": "champion"
+      },
+      {
+        "year": 1958,
+        "deepest": "champion"
+      },
+      {
+        "year": 1954,
+        "deepest": "qf"
+      },
+      {
+        "year": 1950,
+        "deepest": "sf"
+      },
+      {
+        "year": 1938,
+        "deepest": "sf"
+      },
+      {
+        "year": 1934,
+        "deepest": "r16"
+      },
+      {
+        "year": 1930,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "alemanha",
+    "name": "Alemanha",
+    "nameEn": "Germany",
+    "code": "deu",
+    "fifa": "ger",
+    "flag": "ger",
+    "appearances": 20,
+    "qualified2026": true,
+    "inherited": true,
+    "firstAppearance": {
+      "year": 1934,
+      "date": "1934-05-27"
+    },
+    "lastStage": {
+      "qf": 2014,
+      "sf": 2014,
+      "final": 2014
+    },
+    "anchors": {
+      "qf": {
+        "year": 2014,
+        "date": "2014-07-04"
+      },
+      "sf": {
+        "year": 2014,
+        "date": "2014-07-08"
+      },
+      "final": {
+        "year": 2014,
+        "date": "2014-07-13"
+      }
+    },
+    "best": {
+      "stage": "champion",
+      "years": [
+        1954,
+        1974,
+        1990,
+        2014
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2014,
+        "deepest": "champion"
+      },
+      {
+        "year": 2010,
+        "deepest": "sf"
+      },
+      {
+        "year": 2006,
+        "deepest": "sf"
+      },
+      {
+        "year": 2002,
+        "deepest": "final"
+      },
+      {
+        "year": 1998,
+        "deepest": "qf"
+      },
+      {
+        "year": 1994,
+        "deepest": "qf"
+      },
+      {
+        "year": 1990,
+        "deepest": "champion"
+      },
+      {
+        "year": 1986,
+        "deepest": "final"
+      },
+      {
+        "year": 1982,
+        "deepest": "final"
+      },
+      {
+        "year": 1978,
+        "deepest": "qf"
+      },
+      {
+        "year": 1974,
+        "deepest": "champion"
+      },
+      {
+        "year": 1970,
+        "deepest": "sf"
+      },
+      {
+        "year": 1966,
+        "deepest": "final"
+      },
+      {
+        "year": 1962,
+        "deepest": "qf"
+      },
+      {
+        "year": 1958,
+        "deepest": "sf"
+      },
+      {
+        "year": 1954,
+        "deepest": "champion"
+      },
+      {
+        "year": 1938,
+        "deepest": "r16"
+      },
+      {
+        "year": 1934,
+        "deepest": "sf"
+      }
+    ]
+  },
+  {
+    "slug": "argentina",
+    "name": "Argentina",
+    "nameEn": "Argentina",
+    "code": "arg",
+    "fifa": "arg",
+    "flag": "arg",
+    "appearances": 18,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-15"
+    },
+    "lastStage": {
+      "qf": 2022,
+      "sf": 2022,
+      "final": 2022
+    },
+    "anchors": {
+      "qf": {
+        "year": 2022,
+        "date": "2022-12-09"
+      },
+      "sf": {
+        "year": 2022,
+        "date": "2022-12-13"
+      },
+      "final": {
+        "year": 2022,
+        "date": "2022-12-18"
+      }
+    },
+    "best": {
+      "stage": "champion",
+      "years": [
+        1978,
+        1986,
+        2022
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "champion"
+      },
+      {
+        "year": 2018,
+        "deepest": "r16"
+      },
+      {
+        "year": 2014,
+        "deepest": "final"
+      },
+      {
+        "year": 2010,
+        "deepest": "qf"
+      },
+      {
+        "year": 2006,
+        "deepest": "qf"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "qf"
+      },
+      {
+        "year": 1994,
+        "deepest": "r16"
+      },
+      {
+        "year": 1990,
+        "deepest": "final"
+      },
+      {
+        "year": 1986,
+        "deepest": "champion"
+      },
+      {
+        "year": 1982,
+        "deepest": "qf"
+      },
+      {
+        "year": 1978,
+        "deepest": "champion"
+      },
+      {
+        "year": 1974,
+        "deepest": "qf"
+      },
+      {
+        "year": 1966,
+        "deepest": "qf"
+      },
+      {
+        "year": 1962,
+        "deepest": "group"
+      },
+      {
+        "year": 1958,
+        "deepest": "group"
+      },
+      {
+        "year": 1934,
+        "deepest": "r16"
+      },
+      {
+        "year": 1930,
+        "deepest": "final"
+      }
+    ]
+  },
+  {
+    "slug": "italia",
+    "name": "Itália",
+    "nameEn": "Italy",
+    "code": "ita",
+    "fifa": "ita",
+    "flag": "ita",
+    "appearances": 18,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1934,
+      "date": "1934-05-27"
+    },
+    "lastStage": {
+      "qf": 2006,
+      "sf": 2006,
+      "final": 2006
+    },
+    "anchors": {
+      "qf": {
+        "year": 2006,
+        "date": "2006-06-30"
+      },
+      "sf": {
+        "year": 2006,
+        "date": "2006-07-04"
+      },
+      "final": {
+        "year": 2006,
+        "date": "2006-07-09"
+      }
+    },
+    "best": {
+      "stage": "champion",
+      "years": [
+        1934,
+        1938,
+        1982,
+        2006
+      ]
+    },
+    "runs": [
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "champion"
+      },
+      {
+        "year": 2002,
+        "deepest": "r16"
+      },
+      {
+        "year": 1998,
+        "deepest": "qf"
+      },
+      {
+        "year": 1994,
+        "deepest": "final"
+      },
+      {
+        "year": 1990,
+        "deepest": "sf"
+      },
+      {
+        "year": 1986,
+        "deepest": "r16"
+      },
+      {
+        "year": 1982,
+        "deepest": "champion"
+      },
+      {
+        "year": 1978,
+        "deepest": "sf"
+      },
+      {
+        "year": 1974,
+        "deepest": "group"
+      },
+      {
+        "year": 1970,
+        "deepest": "final"
+      },
+      {
+        "year": 1966,
+        "deepest": "group"
+      },
+      {
+        "year": 1962,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "group"
+      },
+      {
+        "year": 1950,
+        "deepest": "group"
+      },
+      {
+        "year": 1938,
+        "deepest": "champion"
+      },
+      {
+        "year": 1934,
+        "deepest": "champion"
+      }
+    ]
+  },
+  {
+    "slug": "mexico",
+    "name": "México",
+    "nameEn": "Mexico",
+    "code": "mex",
+    "fifa": "mex",
+    "flag": "mex",
+    "appearances": 17,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-13"
+    },
+    "lastStage": {
+      "qf": 1986
+    },
+    "anchors": {
+      "qf": {
+        "year": 1986,
+        "date": "1986-06-21"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1970,
+        1986
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2018,
+        "deepest": "r16"
+      },
+      {
+        "year": 2014,
+        "deepest": "r16"
+      },
+      {
+        "year": 2010,
+        "deepest": "r16"
+      },
+      {
+        "year": 2006,
+        "deepest": "r16"
+      },
+      {
+        "year": 2002,
+        "deepest": "r16"
+      },
+      {
+        "year": 1998,
+        "deepest": "r16"
+      },
+      {
+        "year": 1994,
+        "deepest": "r16"
+      },
+      {
+        "year": 1986,
+        "deepest": "qf"
+      },
+      {
+        "year": 1978,
+        "deepest": "group"
+      },
+      {
+        "year": 1970,
+        "deepest": "qf"
+      },
+      {
+        "year": 1966,
+        "deepest": "group"
+      },
+      {
+        "year": 1962,
+        "deepest": "group"
+      },
+      {
+        "year": 1958,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "group"
+      },
+      {
+        "year": 1950,
+        "deepest": "group"
+      },
+      {
+        "year": 1930,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "espanha",
+    "name": "Espanha",
+    "nameEn": "Spain",
+    "code": "esp",
+    "fifa": "esp",
+    "flag": "esp",
+    "appearances": 16,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1934,
+      "date": "1934-05-27"
+    },
+    "lastStage": {
+      "qf": 2010,
+      "sf": 2010,
+      "final": 2010
+    },
+    "anchors": {
+      "qf": {
+        "year": 2010,
+        "date": "2010-07-03"
+      },
+      "sf": {
+        "year": 2010,
+        "date": "2010-07-07"
+      },
+      "final": {
+        "year": 2010,
+        "date": "2010-07-11"
+      }
+    },
+    "best": {
+      "stage": "champion",
+      "years": [
+        2010
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "r16"
+      },
+      {
+        "year": 2018,
+        "deepest": "r16"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "champion"
+      },
+      {
+        "year": 2006,
+        "deepest": "r16"
+      },
+      {
+        "year": 2002,
+        "deepest": "qf"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "qf"
+      },
+      {
+        "year": 1990,
+        "deepest": "r16"
+      },
+      {
+        "year": 1986,
+        "deepest": "qf"
+      },
+      {
+        "year": 1982,
+        "deepest": "qf"
+      },
+      {
+        "year": 1978,
+        "deepest": "group"
+      },
+      {
+        "year": 1966,
+        "deepest": "group"
+      },
+      {
+        "year": 1962,
+        "deepest": "group"
+      },
+      {
+        "year": 1950,
+        "deepest": "sf"
+      },
+      {
+        "year": 1934,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "franca",
+    "name": "França",
+    "nameEn": "France",
+    "code": "fra",
+    "fifa": "fra",
+    "flag": "fra",
+    "appearances": 16,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-13"
+    },
+    "lastStage": {
+      "qf": 2022,
+      "sf": 2022,
+      "final": 2022
+    },
+    "anchors": {
+      "qf": {
+        "year": 2022,
+        "date": "2022-12-10"
+      },
+      "sf": {
+        "year": 2022,
+        "date": "2022-12-14"
+      },
+      "final": {
+        "year": 2022,
+        "date": "2022-12-18"
+      }
+    },
+    "best": {
+      "stage": "champion",
+      "years": [
+        1998,
+        2018
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "final"
+      },
+      {
+        "year": 2018,
+        "deepest": "champion"
+      },
+      {
+        "year": 2014,
+        "deepest": "qf"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "final"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "champion"
+      },
+      {
+        "year": 1986,
+        "deepest": "sf"
+      },
+      {
+        "year": 1982,
+        "deepest": "sf"
+      },
+      {
+        "year": 1978,
+        "deepest": "group"
+      },
+      {
+        "year": 1966,
+        "deepest": "group"
+      },
+      {
+        "year": 1958,
+        "deepest": "sf"
+      },
+      {
+        "year": 1954,
+        "deepest": "group"
+      },
+      {
+        "year": 1938,
+        "deepest": "qf"
+      },
+      {
+        "year": 1934,
+        "deepest": "r16"
+      },
+      {
+        "year": 1930,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "inglaterra",
+    "name": "Inglaterra",
+    "nameEn": "England",
+    "code": "eng",
+    "fifa": "eng",
+    "flag": "eng",
+    "appearances": 16,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1950,
+      "date": "1950-06-25"
+    },
+    "lastStage": {
+      "qf": 2022,
+      "sf": 2018,
+      "final": 1966
+    },
+    "anchors": {
+      "qf": {
+        "year": 2022,
+        "date": "2022-12-10"
+      },
+      "sf": {
+        "year": 2018,
+        "date": "2018-07-11"
+      },
+      "final": {
+        "year": 1966,
+        "date": "1966-07-30"
+      }
+    },
+    "best": {
+      "stage": "champion",
+      "years": [
+        1966
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "qf"
+      },
+      {
+        "year": 2018,
+        "deepest": "sf"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "r16"
+      },
+      {
+        "year": 2006,
+        "deepest": "qf"
+      },
+      {
+        "year": 2002,
+        "deepest": "qf"
+      },
+      {
+        "year": 1998,
+        "deepest": "r16"
+      },
+      {
+        "year": 1990,
+        "deepest": "sf"
+      },
+      {
+        "year": 1986,
+        "deepest": "qf"
+      },
+      {
+        "year": 1982,
+        "deepest": "qf"
+      },
+      {
+        "year": 1970,
+        "deepest": "qf"
+      },
+      {
+        "year": 1966,
+        "deepest": "champion"
+      },
+      {
+        "year": 1962,
+        "deepest": "qf"
+      },
+      {
+        "year": 1958,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "qf"
+      },
+      {
+        "year": 1950,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "belgica",
+    "name": "Bélgica",
+    "nameEn": "Belgium",
+    "code": "bel",
+    "fifa": "bel",
+    "flag": "bel",
+    "appearances": 14,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-13"
+    },
+    "lastStage": {
+      "qf": 2018,
+      "sf": 2018
+    },
+    "anchors": {
+      "qf": {
+        "year": 2018,
+        "date": "2018-07-06"
+      },
+      "sf": {
+        "year": 2018,
+        "date": "2018-07-10"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        1986,
+        2018
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2018,
+        "deepest": "sf"
+      },
+      {
+        "year": 2014,
+        "deepest": "qf"
+      },
+      {
+        "year": 2002,
+        "deepest": "r16"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "r16"
+      },
+      {
+        "year": 1990,
+        "deepest": "r16"
+      },
+      {
+        "year": 1986,
+        "deepest": "sf"
+      },
+      {
+        "year": 1982,
+        "deepest": "qf"
+      },
+      {
+        "year": 1970,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "group"
+      },
+      {
+        "year": 1938,
+        "deepest": "r16"
+      },
+      {
+        "year": 1934,
+        "deepest": "r16"
+      },
+      {
+        "year": 1930,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "uruguai",
+    "name": "Uruguai",
+    "nameEn": "Uruguay",
+    "code": "ury",
+    "fifa": "uru",
+    "flag": "uru",
+    "appearances": 14,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-18"
+    },
+    "lastStage": {
+      "qf": 2018,
+      "sf": 2010,
+      "final": 1950
+    },
+    "anchors": {
+      "qf": {
+        "year": 2018,
+        "date": "2018-07-06"
+      },
+      "sf": {
+        "year": 2010,
+        "date": "2010-07-06"
+      },
+      "final": {
+        "year": 1950,
+        "date": "1950-07-16"
+      }
+    },
+    "best": {
+      "stage": "champion",
+      "years": [
+        1930,
+        1950
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2018,
+        "deepest": "qf"
+      },
+      {
+        "year": 2014,
+        "deepest": "r16"
+      },
+      {
+        "year": 2010,
+        "deepest": "sf"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1990,
+        "deepest": "r16"
+      },
+      {
+        "year": 1986,
+        "deepest": "r16"
+      },
+      {
+        "year": 1974,
+        "deepest": "group"
+      },
+      {
+        "year": 1970,
+        "deepest": "sf"
+      },
+      {
+        "year": 1966,
+        "deepest": "qf"
+      },
+      {
+        "year": 1962,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "sf"
+      },
+      {
+        "year": 1950,
+        "deepest": "champion"
+      },
+      {
+        "year": 1930,
+        "deepest": "champion"
+      }
+    ]
+  },
+  {
+    "slug": "servia",
+    "name": "Sérvia",
+    "nameEn": "Serbia",
+    "code": "srb",
+    "fifa": "srb",
+    "flag": "srb",
+    "appearances": 13,
+    "qualified2026": false,
+    "inherited": true,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-14"
+    },
+    "lastStage": {
+      "qf": 1990,
+      "sf": 1962
+    },
+    "anchors": {
+      "qf": {
+        "year": 1990,
+        "date": "1990-06-30"
+      },
+      "sf": {
+        "year": 1962,
+        "date": "1962-06-13"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        1930,
+        1962
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "r16"
+      },
+      {
+        "year": 1990,
+        "deepest": "qf"
+      },
+      {
+        "year": 1982,
+        "deepest": "group"
+      },
+      {
+        "year": 1974,
+        "deepest": "qf"
+      },
+      {
+        "year": 1962,
+        "deepest": "sf"
+      },
+      {
+        "year": 1958,
+        "deepest": "qf"
+      },
+      {
+        "year": 1954,
+        "deepest": "qf"
+      },
+      {
+        "year": 1950,
+        "deepest": "group"
+      },
+      {
+        "year": 1930,
+        "deepest": "sf"
+      }
+    ]
+  },
+  {
+    "slug": "suecia",
+    "name": "Suécia",
+    "nameEn": "Sweden",
+    "code": "swe",
+    "fifa": "swe",
+    "flag": "swe",
+    "appearances": 12,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1934,
+      "date": "1934-05-27"
+    },
+    "lastStage": {
+      "qf": 2018,
+      "sf": 1994,
+      "final": 1958
+    },
+    "anchors": {
+      "qf": {
+        "year": 2018,
+        "date": "2018-07-07"
+      },
+      "sf": {
+        "year": 1994,
+        "date": "1994-07-13"
+      },
+      "final": {
+        "year": 1958,
+        "date": "1958-06-29"
+      }
+    },
+    "best": {
+      "stage": "final",
+      "years": [
+        1958
+      ]
+    },
+    "runs": [
+      {
+        "year": 2018,
+        "deepest": "qf"
+      },
+      {
+        "year": 2006,
+        "deepest": "r16"
+      },
+      {
+        "year": 2002,
+        "deepest": "r16"
+      },
+      {
+        "year": 1994,
+        "deepest": "sf"
+      },
+      {
+        "year": 1990,
+        "deepest": "group"
+      },
+      {
+        "year": 1978,
+        "deepest": "group"
+      },
+      {
+        "year": 1974,
+        "deepest": "qf"
+      },
+      {
+        "year": 1970,
+        "deepest": "group"
+      },
+      {
+        "year": 1958,
+        "deepest": "final"
+      },
+      {
+        "year": 1950,
+        "deepest": "sf"
+      },
+      {
+        "year": 1938,
+        "deepest": "sf"
+      },
+      {
+        "year": 1934,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "suica",
+    "name": "Suíça",
+    "nameEn": "Switzerland",
+    "code": "che",
+    "fifa": "sui",
+    "flag": "sui",
+    "appearances": 12,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1934,
+      "date": "1934-05-27"
+    },
+    "lastStage": {
+      "qf": 1954
+    },
+    "anchors": {
+      "qf": {
+        "year": 1954,
+        "date": "1954-06-26"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1934,
+        1938,
+        1954
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "r16"
+      },
+      {
+        "year": 2018,
+        "deepest": "r16"
+      },
+      {
+        "year": 2014,
+        "deepest": "r16"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "r16"
+      },
+      {
+        "year": 1994,
+        "deepest": "r16"
+      },
+      {
+        "year": 1966,
+        "deepest": "group"
+      },
+      {
+        "year": 1962,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "qf"
+      },
+      {
+        "year": 1950,
+        "deepest": "group"
+      },
+      {
+        "year": 1938,
+        "deepest": "qf"
+      },
+      {
+        "year": 1934,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "coreia-do-sul",
+    "name": "Coreia do Sul",
+    "nameEn": "South Korea",
+    "code": "kor",
+    "fifa": "kor",
+    "flag": "kor",
+    "appearances": 11,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1954,
+      "date": "1954-06-17"
+    },
+    "lastStage": {
+      "qf": 2002,
+      "sf": 2002
+    },
+    "anchors": {
+      "qf": {
+        "year": 2002,
+        "date": "2002-06-22"
+      },
+      "sf": {
+        "year": 2002,
+        "date": "2002-06-25"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        2002
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "r16"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "r16"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "sf"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "group"
+      },
+      {
+        "year": 1990,
+        "deepest": "group"
+      },
+      {
+        "year": 1986,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "estados-unidos",
+    "name": "Estados Unidos",
+    "nameEn": "United States",
+    "code": "usa",
+    "fifa": "usa",
+    "flag": "usa",
+    "appearances": 11,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-13"
+    },
+    "lastStage": {
+      "qf": 2002,
+      "sf": 1930
+    },
+    "anchors": {
+      "qf": {
+        "year": 2002,
+        "date": "2002-06-21"
+      },
+      "sf": {
+        "year": 1930,
+        "date": "1930-07-26"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        1930
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "r16"
+      },
+      {
+        "year": 2014,
+        "deepest": "r16"
+      },
+      {
+        "year": 2010,
+        "deepest": "r16"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "qf"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "r16"
+      },
+      {
+        "year": 1990,
+        "deepest": "group"
+      },
+      {
+        "year": 1950,
+        "deepest": "group"
+      },
+      {
+        "year": 1934,
+        "deepest": "r16"
+      },
+      {
+        "year": 1930,
+        "deepest": "sf"
+      }
+    ]
+  },
+  {
+    "slug": "holanda",
+    "name": "Holanda",
+    "nameEn": "Netherlands",
+    "code": "nld",
+    "fifa": "ned",
+    "flag": "ned",
+    "appearances": 11,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1934,
+      "date": "1934-05-27"
+    },
+    "lastStage": {
+      "qf": 2022,
+      "sf": 2014,
+      "final": 2010
+    },
+    "anchors": {
+      "qf": {
+        "year": 2022,
+        "date": "2022-12-09"
+      },
+      "sf": {
+        "year": 2014,
+        "date": "2014-07-09"
+      },
+      "final": {
+        "year": 2010,
+        "date": "2010-07-11"
+      }
+    },
+    "best": {
+      "stage": "final",
+      "years": [
+        1974,
+        1978,
+        2010
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "qf"
+      },
+      {
+        "year": 2014,
+        "deepest": "sf"
+      },
+      {
+        "year": 2010,
+        "deepest": "final"
+      },
+      {
+        "year": 2006,
+        "deepest": "r16"
+      },
+      {
+        "year": 1998,
+        "deepest": "sf"
+      },
+      {
+        "year": 1994,
+        "deepest": "qf"
+      },
+      {
+        "year": 1990,
+        "deepest": "r16"
+      },
+      {
+        "year": 1978,
+        "deepest": "final"
+      },
+      {
+        "year": 1974,
+        "deepest": "final"
+      },
+      {
+        "year": 1938,
+        "deepest": "r16"
+      },
+      {
+        "year": 1934,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "russia",
+    "name": "Rússia",
+    "nameEn": "Russia",
+    "code": "rus",
+    "fifa": "rus",
+    "flag": "rus",
+    "appearances": 11,
+    "qualified2026": false,
+    "inherited": true,
+    "firstAppearance": {
+      "year": 1958,
+      "date": "1958-06-08"
+    },
+    "lastStage": {
+      "qf": 2018,
+      "sf": 1966
+    },
+    "anchors": {
+      "qf": {
+        "year": 2018,
+        "date": "2018-07-07"
+      },
+      "sf": {
+        "year": 1966,
+        "date": "1966-07-25"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        1966
+      ]
+    },
+    "runs": [
+      {
+        "year": 2018,
+        "deepest": "qf"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "group"
+      },
+      {
+        "year": 1990,
+        "deepest": "group"
+      },
+      {
+        "year": 1986,
+        "deepest": "r16"
+      },
+      {
+        "year": 1982,
+        "deepest": "qf"
+      },
+      {
+        "year": 1970,
+        "deepest": "qf"
+      },
+      {
+        "year": 1966,
+        "deepest": "sf"
+      },
+      {
+        "year": 1962,
+        "deepest": "qf"
+      },
+      {
+        "year": 1958,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "chile",
+    "name": "Chile",
+    "nameEn": "Chile",
+    "code": "chl",
+    "fifa": "chi",
+    "flag": "chi",
+    "appearances": 9,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-16"
+    },
+    "lastStage": {
+      "qf": 1962,
+      "sf": 1962
+    },
+    "anchors": {
+      "qf": {
+        "year": 1962,
+        "date": "1962-06-10"
+      },
+      "sf": {
+        "year": 1962,
+        "date": "1962-06-13"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        1962
+      ]
+    },
+    "runs": [
+      {
+        "year": 2014,
+        "deepest": "r16"
+      },
+      {
+        "year": 2010,
+        "deepest": "r16"
+      },
+      {
+        "year": 1998,
+        "deepest": "r16"
+      },
+      {
+        "year": 1982,
+        "deepest": "group"
+      },
+      {
+        "year": 1974,
+        "deepest": "group"
+      },
+      {
+        "year": 1966,
+        "deepest": "group"
+      },
+      {
+        "year": 1962,
+        "deepest": "sf"
+      },
+      {
+        "year": 1950,
+        "deepest": "group"
+      },
+      {
+        "year": 1930,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "hungria",
+    "name": "Hungria",
+    "nameEn": "Hungary",
+    "code": "hun",
+    "fifa": "hun",
+    "flag": "hun",
+    "appearances": 9,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1934,
+      "date": "1934-05-27"
+    },
+    "lastStage": {
+      "qf": 1966,
+      "sf": 1954,
+      "final": 1954
+    },
+    "anchors": {
+      "qf": {
+        "year": 1966,
+        "date": "1966-07-23"
+      },
+      "sf": {
+        "year": 1954,
+        "date": "1954-06-30"
+      },
+      "final": {
+        "year": 1954,
+        "date": "1954-07-04"
+      }
+    },
+    "best": {
+      "stage": "final",
+      "years": [
+        1938,
+        1954
+      ]
+    },
+    "runs": [
+      {
+        "year": 1986,
+        "deepest": "group"
+      },
+      {
+        "year": 1982,
+        "deepest": "group"
+      },
+      {
+        "year": 1978,
+        "deepest": "group"
+      },
+      {
+        "year": 1966,
+        "deepest": "qf"
+      },
+      {
+        "year": 1962,
+        "deepest": "qf"
+      },
+      {
+        "year": 1958,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "final"
+      },
+      {
+        "year": 1938,
+        "deepest": "final"
+      },
+      {
+        "year": 1934,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "polonia",
+    "name": "Polônia",
+    "nameEn": "Poland",
+    "code": "pol",
+    "fifa": "pol",
+    "flag": "pol",
+    "appearances": 9,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1938,
+      "date": "1938-06-05"
+    },
+    "lastStage": {
+      "qf": 1982,
+      "sf": 1982
+    },
+    "anchors": {
+      "qf": {
+        "year": 1982,
+        "date": "1982-07-04"
+      },
+      "sf": {
+        "year": 1982,
+        "date": "1982-07-08"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        1974,
+        1982
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "r16"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1986,
+        "deepest": "r16"
+      },
+      {
+        "year": 1982,
+        "deepest": "sf"
+      },
+      {
+        "year": 1978,
+        "deepest": "qf"
+      },
+      {
+        "year": 1974,
+        "deepest": "sf"
+      },
+      {
+        "year": 1938,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "republica-tcheca",
+    "name": "República Tcheca",
+    "nameEn": "Czech Republic",
+    "code": "cze",
+    "fifa": "cze",
+    "flag": "cze",
+    "appearances": 9,
+    "qualified2026": true,
+    "inherited": true,
+    "firstAppearance": {
+      "year": 1934,
+      "date": "1934-05-27"
+    },
+    "lastStage": {
+      "qf": 1990,
+      "sf": 1962,
+      "final": 1962
+    },
+    "anchors": {
+      "qf": {
+        "year": 1990,
+        "date": "1990-07-01"
+      },
+      "sf": {
+        "year": 1962,
+        "date": "1962-06-13"
+      },
+      "final": {
+        "year": 1962,
+        "date": "1962-06-17"
+      }
+    },
+    "best": {
+      "stage": "final",
+      "years": [
+        1934,
+        1962
+      ]
+    },
+    "runs": [
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 1990,
+        "deepest": "qf"
+      },
+      {
+        "year": 1982,
+        "deepest": "group"
+      },
+      {
+        "year": 1970,
+        "deepest": "group"
+      },
+      {
+        "year": 1962,
+        "deepest": "final"
+      },
+      {
+        "year": 1958,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "group"
+      },
+      {
+        "year": 1938,
+        "deepest": "qf"
+      },
+      {
+        "year": 1934,
+        "deepest": "final"
+      }
+    ]
+  },
+  {
+    "slug": "camaroes",
+    "name": "Camarões",
+    "nameEn": "Cameroon",
+    "code": "cmr",
+    "fifa": "cmr",
+    "flag": "cmr",
+    "appearances": 8,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1982,
+      "date": "1982-06-15"
+    },
+    "lastStage": {
+      "qf": 1990
+    },
+    "anchors": {
+      "qf": {
+        "year": 1990,
+        "date": "1990-07-01"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1990
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "group"
+      },
+      {
+        "year": 1990,
+        "deepest": "qf"
+      },
+      {
+        "year": 1982,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "escocia",
+    "name": "Escócia",
+    "nameEn": "Scotland",
+    "code": "sco",
+    "fifa": "sco",
+    "flag": "sco",
+    "appearances": 8,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1954,
+      "date": "1954-06-16"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1954,
+        1958,
+        1974,
+        1978,
+        1982,
+        1986,
+        1990,
+        1998
+      ]
+    },
+    "runs": [
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1990,
+        "deepest": "group"
+      },
+      {
+        "year": 1986,
+        "deepest": "group"
+      },
+      {
+        "year": 1982,
+        "deepest": "group"
+      },
+      {
+        "year": 1978,
+        "deepest": "group"
+      },
+      {
+        "year": 1974,
+        "deepest": "group"
+      },
+      {
+        "year": 1958,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "paraguai",
+    "name": "Paraguai",
+    "nameEn": "Paraguay",
+    "code": "pry",
+    "fifa": "par",
+    "flag": "par",
+    "appearances": 8,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-17"
+    },
+    "lastStage": {
+      "qf": 2010
+    },
+    "anchors": {
+      "qf": {
+        "year": 2010,
+        "date": "2010-07-03"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        2010
+      ]
+    },
+    "runs": [
+      {
+        "year": 2010,
+        "deepest": "qf"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "r16"
+      },
+      {
+        "year": 1998,
+        "deepest": "r16"
+      },
+      {
+        "year": 1986,
+        "deepest": "r16"
+      },
+      {
+        "year": 1958,
+        "deepest": "group"
+      },
+      {
+        "year": 1950,
+        "deepest": "group"
+      },
+      {
+        "year": 1930,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "portugal",
+    "name": "Portugal",
+    "nameEn": "Portugal",
+    "code": "prt",
+    "fifa": "por",
+    "flag": "por",
+    "appearances": 8,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1966,
+      "date": "1966-07-13"
+    },
+    "lastStage": {
+      "qf": 2022,
+      "sf": 2006
+    },
+    "anchors": {
+      "qf": {
+        "year": 2022,
+        "date": "2022-12-10"
+      },
+      "sf": {
+        "year": 2006,
+        "date": "2006-07-05"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        1966,
+        2006
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "qf"
+      },
+      {
+        "year": 2018,
+        "deepest": "r16"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "r16"
+      },
+      {
+        "year": 2006,
+        "deepest": "sf"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1986,
+        "deepest": "group"
+      },
+      {
+        "year": 1966,
+        "deepest": "sf"
+      }
+    ]
+  },
+  {
+    "slug": "austria",
+    "name": "Áustria",
+    "nameEn": "Austria",
+    "code": "aut",
+    "fifa": "aut",
+    "flag": "aut",
+    "appearances": 7,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1934,
+      "date": "1934-05-27"
+    },
+    "lastStage": {
+      "qf": 1982,
+      "sf": 1954
+    },
+    "anchors": {
+      "qf": {
+        "year": 1982,
+        "date": "1982-07-01"
+      },
+      "sf": {
+        "year": 1954,
+        "date": "1954-06-30"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        1934,
+        1954
+      ]
+    },
+    "runs": [
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1990,
+        "deepest": "group"
+      },
+      {
+        "year": 1982,
+        "deepest": "qf"
+      },
+      {
+        "year": 1978,
+        "deepest": "qf"
+      },
+      {
+        "year": 1958,
+        "deepest": "group"
+      },
+      {
+        "year": 1954,
+        "deepest": "sf"
+      },
+      {
+        "year": 1934,
+        "deepest": "sf"
+      }
+    ]
+  },
+  {
+    "slug": "bulgaria",
+    "name": "Bulgária",
+    "nameEn": "Bulgaria",
+    "code": "bgr",
+    "fifa": "bul",
+    "flag": "bul",
+    "appearances": 7,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1962,
+      "date": "1962-05-30"
+    },
+    "lastStage": {
+      "qf": 1994,
+      "sf": 1994
+    },
+    "anchors": {
+      "qf": {
+        "year": 1994,
+        "date": "1994-07-10"
+      },
+      "sf": {
+        "year": 1994,
+        "date": "1994-07-13"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        1994
+      ]
+    },
+    "runs": [
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "sf"
+      },
+      {
+        "year": 1986,
+        "deepest": "r16"
+      },
+      {
+        "year": 1974,
+        "deepest": "group"
+      },
+      {
+        "year": 1970,
+        "deepest": "group"
+      },
+      {
+        "year": 1966,
+        "deepest": "group"
+      },
+      {
+        "year": 1962,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "japao",
+    "name": "Japão",
+    "nameEn": "Japan",
+    "code": "jpn",
+    "fifa": "jpn",
+    "flag": "jpn",
+    "appearances": 7,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1998,
+      "date": "1998-06-14"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        2002,
+        2010,
+        2018,
+        2022
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "r16"
+      },
+      {
+        "year": 2018,
+        "deepest": "r16"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "r16"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "r16"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "romenia",
+    "name": "Romênia",
+    "nameEn": "Romania",
+    "code": "rou",
+    "fifa": "rou",
+    "flag": "rou",
+    "appearances": 7,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-14"
+    },
+    "lastStage": {
+      "qf": 1994
+    },
+    "anchors": {
+      "qf": {
+        "year": 1994,
+        "date": "1994-07-10"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1994
+      ]
+    },
+    "runs": [
+      {
+        "year": 1998,
+        "deepest": "r16"
+      },
+      {
+        "year": 1994,
+        "deepest": "qf"
+      },
+      {
+        "year": 1990,
+        "deepest": "r16"
+      },
+      {
+        "year": 1970,
+        "deepest": "group"
+      },
+      {
+        "year": 1938,
+        "deepest": "r16"
+      },
+      {
+        "year": 1934,
+        "deepest": "r16"
+      },
+      {
+        "year": 1930,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "arabia-saudita",
+    "name": "Arábia Saudita",
+    "nameEn": "Saudi Arabia",
+    "code": "sau",
+    "fifa": "ksa",
+    "flag": "ksa",
+    "appearances": 6,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1994,
+      "date": "1994-06-20"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        1994
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "australia",
+    "name": "Austrália",
+    "nameEn": "Australia",
+    "code": "aus",
+    "fifa": "aus",
+    "flag": "aus",
+    "appearances": 6,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1974,
+      "date": "1974-06-14"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        2006,
+        2022
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "r16"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "r16"
+      },
+      {
+        "year": 1974,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "colombia",
+    "name": "Colômbia",
+    "nameEn": "Colombia",
+    "code": "col",
+    "fifa": "col",
+    "flag": "col",
+    "appearances": 6,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1962,
+      "date": "1962-05-30"
+    },
+    "lastStage": {
+      "qf": 2014
+    },
+    "anchors": {
+      "qf": {
+        "year": 2014,
+        "date": "2014-07-04"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        2014
+      ]
+    },
+    "runs": [
+      {
+        "year": 2018,
+        "deepest": "r16"
+      },
+      {
+        "year": 2014,
+        "deepest": "qf"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "group"
+      },
+      {
+        "year": 1990,
+        "deepest": "r16"
+      },
+      {
+        "year": 1962,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "nameEn": "Costa Rica",
+    "code": "cri",
+    "fifa": "crc",
+    "flag": "crc",
+    "appearances": 6,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1990,
+      "date": "1990-06-11"
+    },
+    "lastStage": {
+      "qf": 2014
+    },
+    "anchors": {
+      "qf": {
+        "year": 2014,
+        "date": "2014-07-05"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        2014
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2014,
+        "deepest": "qf"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1990,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "croacia",
+    "name": "Croácia",
+    "nameEn": "Croatia",
+    "code": "hrv",
+    "fifa": "cro",
+    "flag": "cro",
+    "appearances": 6,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1998,
+      "date": "1998-06-14"
+    },
+    "lastStage": {
+      "qf": 2022,
+      "sf": 2022,
+      "final": 2018
+    },
+    "anchors": {
+      "qf": {
+        "year": 2022,
+        "date": "2022-12-09"
+      },
+      "sf": {
+        "year": 2022,
+        "date": "2022-12-13"
+      },
+      "final": {
+        "year": 2018,
+        "date": "2018-07-15"
+      }
+    },
+    "best": {
+      "stage": "final",
+      "years": [
+        2018
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "sf"
+      },
+      {
+        "year": 2018,
+        "deepest": "final"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "sf"
+      }
+    ]
+  },
+  {
+    "slug": "dinamarca",
+    "name": "Dinamarca",
+    "nameEn": "Denmark",
+    "code": "dnk",
+    "fifa": "den",
+    "flag": "den",
+    "appearances": 6,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1986,
+      "date": "1986-06-04"
+    },
+    "lastStage": {
+      "qf": 1998
+    },
+    "anchors": {
+      "qf": {
+        "year": 1998,
+        "date": "1998-07-03"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1998
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2018,
+        "deepest": "r16"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "r16"
+      },
+      {
+        "year": 1998,
+        "deepest": "qf"
+      },
+      {
+        "year": 1986,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "ira",
+    "name": "Irã",
+    "nameEn": "Iran",
+    "code": "irn",
+    "fifa": "irn",
+    "flag": "irn",
+    "appearances": 6,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1978,
+      "date": "1978-06-03"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1978,
+        1998,
+        2006,
+        2014,
+        2018,
+        2022
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1978,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "marrocos",
+    "name": "Marrocos",
+    "nameEn": "Morocco",
+    "code": "mar",
+    "fifa": "mar",
+    "flag": "mar",
+    "appearances": 6,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1970,
+      "date": "1970-06-03"
+    },
+    "lastStage": {
+      "qf": 2022,
+      "sf": 2022
+    },
+    "anchors": {
+      "qf": {
+        "year": 2022,
+        "date": "2022-12-10"
+      },
+      "sf": {
+        "year": 2022,
+        "date": "2022-12-14"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        2022
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "sf"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "group"
+      },
+      {
+        "year": 1986,
+        "deepest": "r16"
+      },
+      {
+        "year": 1970,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "nigeria",
+    "name": "Nigéria",
+    "nameEn": "Nigeria",
+    "code": "nga",
+    "fifa": "nga",
+    "flag": "nga",
+    "appearances": 6,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1994,
+      "date": "1994-06-21"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        1994,
+        1998,
+        2014
+      ]
+    },
+    "runs": [
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2014,
+        "deepest": "r16"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "r16"
+      },
+      {
+        "year": 1994,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "tunisia",
+    "name": "Tunísia",
+    "nameEn": "Tunisia",
+    "code": "tun",
+    "fifa": "tun",
+    "flag": "tun",
+    "appearances": 6,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1978,
+      "date": "1978-06-02"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1978,
+        1998,
+        2002,
+        2006,
+        2018,
+        2022
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      },
+      {
+        "year": 1978,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "peru",
+    "name": "Peru",
+    "nameEn": "Peru",
+    "code": "per",
+    "fifa": "per",
+    "flag": "per",
+    "appearances": 5,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-14"
+    },
+    "lastStage": {
+      "qf": 1978
+    },
+    "anchors": {
+      "qf": {
+        "year": 1978,
+        "date": "1978-06-21"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1970,
+        1978
+      ]
+    },
+    "runs": [
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 1982,
+        "deepest": "group"
+      },
+      {
+        "year": 1978,
+        "deepest": "qf"
+      },
+      {
+        "year": 1970,
+        "deepest": "qf"
+      },
+      {
+        "year": 1930,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "argelia",
+    "name": "Argélia",
+    "nameEn": "Algeria",
+    "code": "dza",
+    "fifa": "alg",
+    "flag": "alg",
+    "appearances": 4,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1982,
+      "date": "1982-06-16"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        2014
+      ]
+    },
+    "runs": [
+      {
+        "year": 2014,
+        "deepest": "r16"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 1986,
+        "deepest": "group"
+      },
+      {
+        "year": 1982,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "equador",
+    "name": "Equador",
+    "nameEn": "Ecuador",
+    "code": "ecu",
+    "fifa": "ecu",
+    "flag": "ecu",
+    "appearances": 4,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 2002,
+      "date": "2002-06-03"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        2006
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "r16"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "gana",
+    "name": "Gana",
+    "nameEn": "Ghana",
+    "code": "gha",
+    "fifa": "gha",
+    "flag": "gha",
+    "appearances": 4,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 2006,
+      "date": "2006-06-12"
+    },
+    "lastStage": {
+      "qf": 2010
+    },
+    "anchors": {
+      "qf": {
+        "year": 2010,
+        "date": "2010-07-02"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        2010
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "qf"
+      },
+      {
+        "year": 2006,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "africa-do-sul",
+    "name": "África do Sul",
+    "nameEn": "South Africa",
+    "code": "zaf",
+    "fifa": "rsa",
+    "flag": "rsa",
+    "appearances": 3,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1998,
+      "date": "1998-06-12"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1998,
+        2002,
+        2010
+      ]
+    },
+    "runs": [
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      },
+      {
+        "year": 1998,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "bolivia",
+    "name": "Bolívia",
+    "nameEn": "Bolivia",
+    "code": "bol",
+    "fifa": "bol",
+    "flag": "bol",
+    "appearances": 3,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1930,
+      "date": "1930-07-17"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1930,
+        1950,
+        1994
+      ]
+    },
+    "runs": [
+      {
+        "year": 1994,
+        "deepest": "group"
+      },
+      {
+        "year": 1950,
+        "deepest": "group"
+      },
+      {
+        "year": 1930,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "costa-do-marfim",
+    "name": "Costa do Marfim",
+    "nameEn": "Ivory Coast",
+    "code": "civ",
+    "fifa": "civ",
+    "flag": "civ",
+    "appearances": 3,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 2006,
+      "date": "2006-06-10"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        2006,
+        2010,
+        2014
+      ]
+    },
+    "runs": [
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2006,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "egito",
+    "name": "Egito",
+    "nameEn": "Egypt",
+    "code": "egy",
+    "fifa": "egy",
+    "flag": "egy",
+    "appearances": 3,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1934,
+      "date": "1934-05-27"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        1934
+      ]
+    },
+    "runs": [
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 1990,
+        "deepest": "group"
+      },
+      {
+        "year": 1934,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "grecia",
+    "name": "Grécia",
+    "nameEn": "Greece",
+    "code": "grc",
+    "fifa": "gre",
+    "flag": "gre",
+    "appearances": 3,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1994,
+      "date": "1994-06-21"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        2014
+      ]
+    },
+    "runs": [
+      {
+        "year": 2014,
+        "deepest": "r16"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 1994,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "honduras",
+    "name": "Honduras",
+    "nameEn": "Honduras",
+    "code": "hnd",
+    "fifa": "hon",
+    "flag": "hon",
+    "appearances": 3,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1982,
+      "date": "1982-06-16"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1982,
+        2010,
+        2014
+      ]
+    },
+    "runs": [
+      {
+        "year": 2014,
+        "deepest": "group"
+      },
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 1982,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "irlanda",
+    "name": "Irlanda",
+    "nameEn": "Republic of Ireland",
+    "code": "irl",
+    "fifa": "irl",
+    "flag": "irl",
+    "appearances": 3,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1990,
+      "date": "1990-06-11"
+    },
+    "lastStage": {
+      "qf": 1990
+    },
+    "anchors": {
+      "qf": {
+        "year": 1990,
+        "date": "1990-06-30"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1990
+      ]
+    },
+    "runs": [
+      {
+        "year": 2002,
+        "deepest": "r16"
+      },
+      {
+        "year": 1994,
+        "deepest": "r16"
+      },
+      {
+        "year": 1990,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "irlanda-do-norte",
+    "name": "Irlanda do Norte",
+    "nameEn": "Northern Ireland",
+    "code": "nir",
+    "fifa": "nir",
+    "flag": "nir",
+    "appearances": 3,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1958,
+      "date": "1958-06-08"
+    },
+    "lastStage": {
+      "qf": 1982
+    },
+    "anchors": {
+      "qf": {
+        "year": 1982,
+        "date": "1982-07-04"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1958,
+        1982
+      ]
+    },
+    "runs": [
+      {
+        "year": 1986,
+        "deepest": "group"
+      },
+      {
+        "year": 1982,
+        "deepest": "qf"
+      },
+      {
+        "year": 1958,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "noruega",
+    "name": "Noruega",
+    "nameEn": "Norway",
+    "code": "nor",
+    "fifa": "nor",
+    "flag": "nor",
+    "appearances": 3,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1938,
+      "date": "1938-06-05"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        1938,
+        1998
+      ]
+    },
+    "runs": [
+      {
+        "year": 1998,
+        "deepest": "r16"
+      },
+      {
+        "year": 1994,
+        "deepest": "group"
+      },
+      {
+        "year": 1938,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "senegal",
+    "name": "Senegal",
+    "nameEn": "Senegal",
+    "code": "sen",
+    "fifa": "sen",
+    "flag": "sen",
+    "appearances": 3,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 2002,
+      "date": "2002-05-31"
+    },
+    "lastStage": {
+      "qf": 2002
+    },
+    "anchors": {
+      "qf": {
+        "year": 2002,
+        "date": "2002-06-22"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        2002
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "r16"
+      },
+      {
+        "year": 2018,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "canada",
+    "name": "Canadá",
+    "nameEn": "Canada",
+    "code": "can",
+    "fifa": "can",
+    "flag": "can",
+    "appearances": 2,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1986,
+      "date": "1986-06-01"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1986,
+        2022
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 1986,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "coreia-do-norte",
+    "name": "Coreia do Norte",
+    "nameEn": "North Korea",
+    "code": "prk",
+    "fifa": "prk",
+    "flag": "prk",
+    "appearances": 2,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1966,
+      "date": "1966-07-12"
+    },
+    "lastStage": {
+      "qf": 1966
+    },
+    "anchors": {
+      "qf": {
+        "year": 1966,
+        "date": "1966-07-23"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1966
+      ]
+    },
+    "runs": [
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 1966,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "el-salvador",
+    "name": "El Salvador",
+    "nameEn": "El Salvador",
+    "code": "slv",
+    "fifa": "slv",
+    "flag": "slv",
+    "appearances": 2,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1970,
+      "date": "1970-06-03"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1970,
+        1982
+      ]
+    },
+    "runs": [
+      {
+        "year": 1982,
+        "deepest": "group"
+      },
+      {
+        "year": 1970,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "eslovenia",
+    "name": "Eslovênia",
+    "nameEn": "Slovenia",
+    "code": "svn",
+    "fifa": "svn",
+    "flag": "svn",
+    "appearances": 2,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 2002,
+      "date": "2002-06-02"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        2002,
+        2010
+      ]
+    },
+    "runs": [
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 2002,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "nova-zelandia",
+    "name": "Nova Zelândia",
+    "nameEn": "New Zealand",
+    "code": "nzl",
+    "fifa": "nzl",
+    "flag": "nzl",
+    "appearances": 2,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1982,
+      "date": "1982-06-15"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1982,
+        2010
+      ]
+    },
+    "runs": [
+      {
+        "year": 2010,
+        "deepest": "group"
+      },
+      {
+        "year": 1982,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "pais-de-gales",
+    "name": "País de Gales",
+    "nameEn": "Wales",
+    "code": "wal",
+    "fifa": "wal",
+    "flag": "wal",
+    "appearances": 2,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1958,
+      "date": "1958-06-08"
+    },
+    "lastStage": {
+      "qf": 1958
+    },
+    "anchors": {
+      "qf": {
+        "year": 1958,
+        "date": "1958-06-19"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1958
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      },
+      {
+        "year": 1958,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "turquia",
+    "name": "Turquia",
+    "nameEn": "Turkey",
+    "code": "tur",
+    "fifa": "tur",
+    "flag": "tur",
+    "appearances": 2,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1954,
+      "date": "1954-06-17"
+    },
+    "lastStage": {
+      "qf": 2002,
+      "sf": 2002
+    },
+    "anchors": {
+      "qf": {
+        "year": 2002,
+        "date": "2002-06-22"
+      },
+      "sf": {
+        "year": 2002,
+        "date": "2002-06-26"
+      }
+    },
+    "best": {
+      "stage": "sf",
+      "years": [
+        2002
+      ]
+    },
+    "runs": [
+      {
+        "year": 2002,
+        "deepest": "sf"
+      },
+      {
+        "year": 1954,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "angola",
+    "name": "Angola",
+    "nameEn": "Angola",
+    "code": "ago",
+    "fifa": "ang",
+    "flag": "ang",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 2006,
+      "date": "2006-06-11"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        2006
+      ]
+    },
+    "runs": [
+      {
+        "year": 2006,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "bosnia-e-herzegovina",
+    "name": "Bósnia e Herzegovina",
+    "nameEn": "Bosnia and Herzegovina",
+    "code": "bih",
+    "fifa": "bih",
+    "flag": "bih",
+    "appearances": 1,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 2014,
+      "date": "2014-06-15"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        2014
+      ]
+    },
+    "runs": [
+      {
+        "year": 2014,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "catar",
+    "name": "Catar",
+    "nameEn": "Qatar",
+    "code": "qat",
+    "fifa": "qat",
+    "flag": "qat",
+    "appearances": 1,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 2022,
+      "date": "2022-11-20"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        2022
+      ]
+    },
+    "runs": [
+      {
+        "year": 2022,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "china",
+    "name": "China",
+    "nameEn": "China",
+    "code": "chn",
+    "fifa": "chn",
+    "flag": "chn",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 2002,
+      "date": "2002-06-04"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        2002
+      ]
+    },
+    "runs": [
+      {
+        "year": 2002,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "cuba",
+    "name": "Cuba",
+    "nameEn": "Cuba",
+    "code": "cub",
+    "fifa": "cub",
+    "flag": "cub",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1938,
+      "date": "1938-06-05"
+    },
+    "lastStage": {
+      "qf": 1938
+    },
+    "anchors": {
+      "qf": {
+        "year": 1938,
+        "date": "1938-06-12"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        1938
+      ]
+    },
+    "runs": [
+      {
+        "year": 1938,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "emirados-arabes-unidos",
+    "name": "Emirados Árabes Unidos",
+    "nameEn": "United Arab Emirates",
+    "code": "are",
+    "fifa": "uae",
+    "flag": "uae",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1990,
+      "date": "1990-06-09"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1990
+      ]
+    },
+    "runs": [
+      {
+        "year": 1990,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "eslovaquia",
+    "name": "Eslováquia",
+    "nameEn": "Slovakia",
+    "code": "svk",
+    "fifa": "svk",
+    "flag": "svk",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 2010,
+      "date": "2010-06-15"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        2010
+      ]
+    },
+    "runs": [
+      {
+        "year": 2010,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "haiti",
+    "name": "Haiti",
+    "nameEn": "Haiti",
+    "code": "hti",
+    "fifa": "hai",
+    "flag": "hai",
+    "appearances": 1,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1974,
+      "date": "1974-06-15"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1974
+      ]
+    },
+    "runs": [
+      {
+        "year": 1974,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "indonesia",
+    "name": "Indonésia",
+    "nameEn": "Indonesia",
+    "code": "idn",
+    "fifa": "idn",
+    "flag": "idn",
+    "appearances": 1,
+    "qualified2026": false,
+    "inherited": true,
+    "firstAppearance": {
+      "year": 1938,
+      "date": "1938-06-05"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "r16",
+      "years": [
+        1938
+      ]
+    },
+    "runs": [
+      {
+        "year": 1938,
+        "deepest": "r16"
+      }
+    ]
+  },
+  {
+    "slug": "iraque",
+    "name": "Iraque",
+    "nameEn": "Iraq",
+    "code": "irq",
+    "fifa": "irq",
+    "flag": "irq",
+    "appearances": 1,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 1986,
+      "date": "1986-06-04"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1986
+      ]
+    },
+    "runs": [
+      {
+        "year": 1986,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "islandia",
+    "name": "Islândia",
+    "nameEn": "Iceland",
+    "code": "isl",
+    "fifa": "isl",
+    "flag": "isl",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 2018,
+      "date": "2018-06-16"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        2018
+      ]
+    },
+    "runs": [
+      {
+        "year": 2018,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "israel",
+    "name": "Israel",
+    "nameEn": "Israel",
+    "code": "isr",
+    "fifa": "isr",
+    "flag": "isr",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1970,
+      "date": "1970-06-02"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1970
+      ]
+    },
+    "runs": [
+      {
+        "year": 1970,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "jamaica",
+    "name": "Jamaica",
+    "nameEn": "Jamaica",
+    "code": "jam",
+    "fifa": "jam",
+    "flag": "jam",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1998,
+      "date": "1998-06-14"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1998
+      ]
+    },
+    "runs": [
+      {
+        "year": 1998,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "kuwait",
+    "name": "Kuwait",
+    "nameEn": "Kuwait",
+    "code": "kwt",
+    "fifa": "kuw",
+    "flag": "kuw",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 1982,
+      "date": "1982-06-17"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1982
+      ]
+    },
+    "runs": [
+      {
+        "year": 1982,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "panama",
+    "name": "Panamá",
+    "nameEn": "Panama",
+    "code": "pan",
+    "fifa": "pan",
+    "flag": "pan",
+    "appearances": 1,
+    "qualified2026": true,
+    "firstAppearance": {
+      "year": 2018,
+      "date": "2018-06-18"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        2018
+      ]
+    },
+    "runs": [
+      {
+        "year": 2018,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "rd-congo",
+    "name": "RD Congo",
+    "nameEn": "DR Congo",
+    "code": "cod",
+    "fifa": "cod",
+    "flag": "cod",
+    "appearances": 1,
+    "qualified2026": true,
+    "inherited": true,
+    "firstAppearance": {
+      "year": 1974,
+      "date": "1974-06-14"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        1974
+      ]
+    },
+    "runs": [
+      {
+        "year": 1974,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "togo",
+    "name": "Togo",
+    "nameEn": "Togo",
+    "code": "tgo",
+    "fifa": "tog",
+    "flag": "tog",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 2006,
+      "date": "2006-06-13"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        2006
+      ]
+    },
+    "runs": [
+      {
+        "year": 2006,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "trinidad-e-tobago",
+    "name": "Trinidad e Tobago",
+    "nameEn": "Trinidad and Tobago",
+    "code": "tto",
+    "fifa": "tri",
+    "flag": "tri",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 2006,
+      "date": "2006-06-10"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "group",
+      "years": [
+        2006
+      ]
+    },
+    "runs": [
+      {
+        "year": 2006,
+        "deepest": "group"
+      }
+    ]
+  },
+  {
+    "slug": "ucrania",
+    "name": "Ucrânia",
+    "nameEn": "Ukraine",
+    "code": "ukr",
+    "fifa": "ukr",
+    "flag": "ukr",
+    "appearances": 1,
+    "qualified2026": false,
+    "firstAppearance": {
+      "year": 2006,
+      "date": "2006-06-14"
+    },
+    "lastStage": {
+      "qf": 2006
+    },
+    "anchors": {
+      "qf": {
+        "year": 2006,
+        "date": "2006-06-30"
+      }
+    },
+    "best": {
+      "stage": "qf",
+      "years": [
+        2006
+      ]
+    },
+    "runs": [
+      {
+        "year": 2006,
+        "deepest": "qf"
+      }
+    ]
+  },
+  {
+    "slug": "cabo-verde",
+    "name": "Cabo Verde",
+    "nameEn": "Cape Verde",
+    "code": "cpv",
+    "fifa": "cpv",
+    "flag": "cpv",
+    "appearances": 0,
+    "qualified2026": true,
+    "debutant2026": true,
+    "firstAppearance": {
+      "year": 2026,
+      "date": "2026-06-11"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "none",
+      "years": []
+    },
+    "runs": []
+  },
+  {
+    "slug": "curacao",
+    "name": "Curaçao",
+    "nameEn": "Curacao",
+    "code": "cuw",
+    "fifa": "cuw",
+    "flag": "cuw",
+    "appearances": 0,
+    "qualified2026": true,
+    "debutant2026": true,
+    "firstAppearance": {
+      "year": 2026,
+      "date": "2026-06-11"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "none",
+      "years": []
+    },
+    "runs": []
+  },
+  {
+    "slug": "jordania",
+    "name": "Jordânia",
+    "nameEn": "Jordan",
+    "code": "jor",
+    "fifa": "jor",
+    "flag": "jor",
+    "appearances": 0,
+    "qualified2026": true,
+    "debutant2026": true,
+    "firstAppearance": {
+      "year": 2026,
+      "date": "2026-06-11"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "none",
+      "years": []
+    },
+    "runs": []
+  },
+  {
+    "slug": "uzbequistao",
+    "name": "Uzbequistão",
+    "nameEn": "Uzbekistan",
+    "code": "uzb",
+    "fifa": "uzb",
+    "flag": "uzb",
+    "appearances": 0,
+    "qualified2026": true,
+    "debutant2026": true,
+    "firstAppearance": {
+      "year": 2026,
+      "date": "2026-06-11"
+    },
+    "lastStage": {},
+    "anchors": {},
+    "best": {
+      "stage": "none",
+      "years": []
+    },
+    "runs": []
+  }
+]

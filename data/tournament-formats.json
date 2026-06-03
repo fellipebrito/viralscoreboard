@@ -1,0 +1,34 @@
+{
+  "_comment": "Era rule for 'A Última Vez' stage tracking. Stored as data, not code branches (brief §2). Stages are defined by TEAMS REMAINING, not match names: quartas = top 8, semi = top 4, final = top 2. The build script (scripts/build-nations.mjs) reads these maps; it does not hardcode stage years. Validated against jfjelstul/worldcup matches.csv on 2026-06-03 (all gates pass).",
+  "_source": "https://raw.githubusercontent.com/jfjelstul/worldcup/master/data-csv/matches.csv",
+
+  "trackedBuckets": {
+    "_comment": "stage_name -> tracked drought bucket (qf/sf/final). Powers lastStage in the table. 'second group stage' (1974/78/82) = quartas equivalent; 'final round' (1950) = semi credit for all four; 'third-place match' = semi credit (you were a top-4 team). round of 16 / group stage are below the tracking threshold and intentionally absent.",
+    "final": "final",
+    "semi-finals": "sf",
+    "third-place match": "sf",
+    "final round": "sf",
+    "quarter-finals": "qf",
+    "second group stage": "qf"
+  },
+
+  "fineStages": {
+    "_comment": "stage_name -> full-granularity deepest stage for the country-page timeline (runs[]) and best{}. Same era mapping as trackedBuckets, extended downward with r16 and group. 'champion' is not a stage_name; it is derived from the winner of the 'final' match (see specialCases.champions).",
+    "final": "final",
+    "semi-finals": "sf",
+    "third-place match": "sf",
+    "final round": "sf",
+    "quarter-finals": "qf",
+    "second group stage": "qf",
+    "round of 16": "r16",
+    "group stage": "group"
+  },
+
+  "stageOrder": { "group": 1, "r16": 2, "qf": 3, "sf": 4, "final": 5, "champion": 6 },
+
+  "specialCases": {
+    "_comment": "1950 had no single final match: a final round-robin of 4 decided the title. All four (Brazil, Uruguay, Sweden, Spain) get semi credit via 'final round'. The decisive Uruguay 2-1 Brazil match = the final for both, and Uruguay = champion. This is the ONLY hand-coded year; every other stage comes straight from the CSV.",
+    "finalRoundFinalists": { "1950": ["Uruguay", "Brazil"] },
+    "champions": { "1950": "Uruguay" }
+  }
+}

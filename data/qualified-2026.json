@@ -1,0 +1,25 @@
+{
+  "_comment": "The 48 teams qualified for the 2026 FIFA World Cup (hosts USA/Canada/Mexico + 45 qualified). Qualification complete as of 2026-06-03; tournament starts 2026-06-11. The jfjelstul dataset ends at 2022, so this is the only forward-looking input. Names use the dataset's English nation names (post-successor) so the build can join on them directly; the 4 debutants have no dataset history and are added with appearances:0.",
+  "_sources": [
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+    "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_qualification"
+  ],
+  "_counts": { "CONMEBOL": 6, "AFC": 9, "CAF": 10, "CONCACAF": 6, "UEFA": 16, "OFC": 1, "total": 48 },
+
+  "qualified": [
+    "Argentina", "Brazil", "Colombia", "Ecuador", "Paraguay", "Uruguay",
+    "Australia", "Iran", "Japan", "Jordan", "Qatar", "Saudi Arabia", "South Korea", "Uzbekistan", "Iraq",
+    "Algeria", "Cape Verde", "Egypt", "Ghana", "Ivory Coast", "Morocco", "Senegal", "South Africa", "Tunisia", "DR Congo",
+    "Canada", "Mexico", "United States", "Panama", "Curacao", "Haiti",
+    "Austria", "Belgium", "Croatia", "Czech Republic", "England", "France", "Germany", "Netherlands", "Norway", "Portugal", "Scotland", "Spain", "Switzerland", "Bosnia and Herzegovina", "Sweden", "Turkey",
+    "New Zealand"
+  ],
+
+  "_comment_debutants": "Qualified nations with NO prior World Cup finals appearance. Added to nations.json with appearances:0 and every stage 'Nunca'. Their counter anchors to first appearance = 2026 (handled in the UI layer).",
+  "debutants": [
+    { "name": "Cape Verde", "pt": "Cabo Verde", "slug": "cabo-verde", "code": "cpv" },
+    { "name": "Curacao",    "pt": "Curaçao",    "slug": "curacao",    "code": "cuw" },
+    { "name": "Jordan",     "pt": "Jordânia",   "slug": "jordania",   "code": "jor" },
+    { "name": "Uzbekistan", "pt": "Uzbequistão","slug": "uzbequistao","code": "uzb" }
+  ]
+}
