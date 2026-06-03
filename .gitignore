@@ -4,3 +4,6 @@
 *.log
 node_modules/
 package-lock.json
+
+# Downloaded source dataset (re-fetched by scripts/build-nations.mjs at build time)
+data/sources/

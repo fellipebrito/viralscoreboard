@@ -14,6 +14,13 @@ const DASHBOARDS = [
     description: "Anos desde que cada seleção campeã venceu outra em Copa do Mundo.",
     image: "/sem-ganhar-de-um-campeao/og-image.png",
   },
+  {
+    slug: "a-ultima-vez",
+    sentence: "um tempão desde a última vez na Copa",
+    title: "A última vez",
+    description: "Toda seleção da história da Copa: últimas quartas, semi e final — e há quanto tempo.",
+    image: "/a-ultima-vez/og-image.png",
+  },
 ];
 
 Object.assign(window, { DASHBOARDS });

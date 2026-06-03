@@ -4,8 +4,13 @@
   "private": true,
   "description": "World Champions' Drought Board — static GitHub Pages site.",
   "scripts": {
+    "build:nations": "node scripts/build-nations.mjs",
     "build:share": "node scripts/build-share-pages.mjs",
+    "build:ulv-share": "node scripts/build-ulv-share.mjs",
+    "check:flags": "node scripts/check-flags.mjs",
+    "build": "npm run build:nations && npm run build:share && npm run build:ulv-share && npm run check:flags",
     "bake:og": "node scripts/bake-og-image.mjs",
+    "bake:ulv-og": "node scripts/bake-ulv-og.mjs",
     "serve": "python3 -m http.server 8000"
   },
   "devDependencies": {

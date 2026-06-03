@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: 22
-      - run: npm run build:share
+      - run: npm run build           # build:nations (downloads CSV + gates) → share → ulv-share → check:flags
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
