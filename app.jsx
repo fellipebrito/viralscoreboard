@@ -4,30 +4,30 @@
 const { LangCtx } = window;
 const rowOf = (nation) => window.DROUGHT.find((r) => r.nation === nation);
 
-// ── EN / PT-BR segmented toggle ───────────────────────────────
+// ── EN / PT-BR flag toggle, top-right ─────────────────────────
+// Two flag buttons (England / Brazil). Active flag is full opacity,
+// inactive is faded. Click swaps language.
 function LangToggle({ lang, setLang }) {
-  const seg = (val, label) => (
-    <button onClick={() => setLang(val)} style={{
-      padding: "9px 16px", border: "none", cursor: "pointer",
-      background: lang === val ? "var(--sx-yellow)" : "transparent",
-      color: lang === val ? "#0C0820" : "var(--sx-ink-dim)",
-      font: "700 12px var(--ttt-font-ui)", letterSpacing: "0.08em",
-    }}>{label}</button>
+  const btn = (val, code, label) => (
+    <button onClick={() => setLang(val)} aria-label={label} aria-pressed={lang === val}
+      style={{
+        background: "transparent", border: "none", padding: 4, cursor: "pointer",
+        opacity: lang === val ? 1 : 0.4, transition: "opacity 0.15s",
+        outline: lang === val ? "2px solid var(--sx-cyan)" : "2px solid transparent",
+        lineHeight: 0,
+      }}>
+      <window.Flag code={code} size={36} title={label} />
+    </button>
   );
   return (
     <div style={{
-      position: "fixed", bottom: 18, left: "50%", transform: "translateX(-50%)", zIndex: 50,
-      display: "flex", alignItems: "center", gap: 10,
-      background: "var(--sx-crt-900)", border: "3px solid var(--sx-cyan)",
-      boxShadow: "6px 6px 0 rgba(0,0,0,0.5)", padding: "6px 8px 6px 12px",
-      fontFamily: "var(--ttt-font-ui)",
+      position: "fixed", top: 12, right: 12, zIndex: 50,
+      display: "flex", gap: 6, padding: 6,
+      background: "var(--sx-crt-900)", border: "2px solid var(--sx-crt-600)",
+      boxShadow: "4px 4px 0 rgba(0,0,0,0.5)",
     }}>
-      <window.PixelBall size={16} />
-      <span style={{ font: "var(--ttt-t-micro)", letterSpacing: "0.12em", color: "var(--sx-ink-faint)" }}>LANG</span>
-      <div style={{ display: "flex", border: "2px solid var(--sx-crt-600)" }}>
-        {seg("en", "EN")}
-        {seg("pt", "PT-BR")}
-      </div>
+      {btn("en", "england", "English")}
+      {btn("pt", "brazil", "Português")}
     </div>
   );
 }

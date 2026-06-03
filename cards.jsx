@@ -296,6 +296,7 @@ function MiniNum({ value, color }) {
 // mobile compact row
 function BoardRowM({ row, lang, i, onClick }) {
   const accent = row.rank === 1 ? "var(--sx-magenta)" : "var(--sx-yellow)";
+  const nonWins = (window.NONWINS[row.nation] || []).length;
   return (
     <div
       onClick={onClick}
@@ -317,9 +318,19 @@ function BoardRowM({ row, lang, i, onClick }) {
           › {window.lz(window.NATION[row.beat], lang)} · {row.score} · {row.wc}
         </div>
       </div>
-      <div style={{ display: "flex", alignItems: "baseline", gap: 6 }}>
-        <MiniNum value={row.years} color={accent} />
-        <Cap style={{ color: "var(--sx-ink-faint)", fontSize: 10 }}>{window.lz(window.STR.years, lang)}</Cap>
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 2 }}>
+        <div style={{ display: "flex", alignItems: "baseline", gap: 6 }}>
+          <MiniNum value={row.years} color={accent} />
+          <Cap style={{ color: "var(--sx-ink-faint)", fontSize: 10 }}>{window.lz(window.STR.years, lang)}</Cap>
+        </div>
+        {nonWins > 0 && (
+          <span style={{
+            font: "700 9px var(--ttt-font-ui)", letterSpacing: "0.1em",
+            color: "var(--sx-ink-faint)", textTransform: "uppercase",
+          }}>
+            {nonWins} {window.lz(window.STR.nonWinsShort, lang)}
+          </span>
+        )}
       </div>
     </div>
   );
@@ -358,6 +369,7 @@ function BoardMobile({ onSelectNation }) {
 // full board row (table-like)
 function BoardRowFull({ row, lang, i }) {
   const accent = row.rank === 1 ? "var(--sx-magenta)" : "var(--sx-yellow)";
+  const nonWins = (window.NONWINS[row.nation] || []).length;
   return (
     <div style={{
       display: "grid", gridTemplateColumns: "64px 240px 150px 1fr", alignItems: "center", gap: 16,
@@ -370,9 +382,16 @@ function BoardRowFull({ row, lang, i }) {
         <window.Flag code={row.nation} size={52} />
         <span style={{ font: "700 22px var(--ttt-font-display)", color: "var(--sx-ink)" }}>{window.lz(window.NATION[row.nation], lang)}</span>
       </div>
-      <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
-        <MiniNum value={row.years} color={accent} />
-        <span style={{ font: "var(--ttt-t-small-b)", color: "var(--sx-ink-faint)", letterSpacing: "0.06em" }}>{window.lz(window.STR.years, lang)}</span>
+      <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+        <div style={{ display: "flex", alignItems: "baseline", gap: 8 }}>
+          <MiniNum value={row.years} color={accent} />
+          <span style={{ font: "var(--ttt-t-small-b)", color: "var(--sx-ink-faint)", letterSpacing: "0.06em" }}>{window.lz(window.STR.years, lang)}</span>
+        </div>
+        {nonWins > 0 && (
+          <span style={{ font: "700 10px var(--ttt-font-ui)", letterSpacing: "0.1em", color: "var(--sx-ink-faint)", textTransform: "uppercase" }}>
+            {nonWins} {window.lz(window.STR.nonWinsShort, lang)}
+          </span>
+        )}
       </div>
       <div style={{ display: "flex", alignItems: "center", gap: 12, minWidth: 0 }}>
         <window.Flag code={row.beat} size={34} />

@@ -104,6 +104,7 @@ const STR = {
   resultL:      { en: "LOSS", pt: "DERROTA" },
   resultD:      { en: "DRAW", pt: "EMPATE" },
   pensLost:     { en: "lost on pens", pt: "perdeu nos pênaltis" },
+  nonWinsShort: { en: "NON-WINS",  pt: "TROPEÇOS" },
   // headline templates — {N} and {NATION} substituted
   headline:     { en: "years since {NATION} beat a fellow World Cup champion",
                   pt: "anos desde que {NATION} venceu um campeão mundial em Copa" },
